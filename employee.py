@@ -19,8 +19,8 @@ class Employee:
             pay += contract["hours"] * contract["rate"]
 
         if "commission" in self.data:
-            commision = self.data["commision"]
-            pay += commision["contracts"] * commision["rate"]
+            commission = self.data["commission"]
+            pay += commission["contracts"] * commission["rate"]
 
         if "bonus" in self.data:
             pay += self.data["bonus"]
@@ -43,13 +43,13 @@ charlie = Employee('Charlie', {
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee', {
-    "commision" : {"contracts" : 4, "rate" : "200"}
+    "commission" : {"contracts" : 4, "rate" : "200"}
 }, "enee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.")
 
 # Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.
 jan = Employee('Jan', {
     "contract" : {"hours" : 150, "rate" : 25},
-    "commision" : {"contracts" : 3, "rate" : 220},
+    "commission" : {"contracts" : 3, "rate" : 220},
 }, "Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.")
 
 # Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.
