@@ -34,32 +34,32 @@ class Employee:
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie', {
     "monthly" : {"salary" : 4000},
-}, "Billie works on a monthly salary of 4000.  Their total pay is 4000.")
+}, "Billie works on a monthly salary of 4000. Their total pay is 4000.")
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = Employee('Charlie', {
     "contract" : {"hours" : 100, "rate" : 25},
-}, "Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.")
+}, "Charlie works on a contract of 100 hours at 25/hour. Their total pay is 2500.")
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee', {
-    "commission" : {"contracts" : 4, "rate" : "200"}
-}, "enee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.")
+    "commission" : {"contracts" : 4, "rate" : 200}
+}, "Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract. Their total pay is 3800.")
 
 # Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.
 jan = Employee('Jan', {
     "contract" : {"hours" : 150, "rate" : 25},
     "commission" : {"contracts" : 3, "rate" : 220},
-}, "Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.")
+}, "Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract. Their total pay is 4410.")
 
 # Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.
 robbie = Employee('Robbie', {
     "monthly" : {"salary" : 2000},
     "bonus" : 1500,
-}, "Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.")
+}, "Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500. Their total pay is 3500.")
 
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
 ariel = Employee('Ariel', {
     "contract" : {"hours" : 120, "rate" : 30},
     "bonus" : 600,
-}, "Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.")
+}, "Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600. Their total pay is 4200.")
