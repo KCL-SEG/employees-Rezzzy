@@ -43,6 +43,7 @@ charlie = Employee('Charlie', {
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee', {
+    "monthly" : {"salary" : 3000},
     "commission" : {"contracts" : 4, "rate" : 200}
 }, "Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract. Their total pay is 3800.")
 
